@@ -9,7 +9,7 @@ services:
     restart: always
     ports:
       #- "8080:80"   # test
-      - "80:80"    # production
+      - "6666:80"    # production
       - "443:443"  # https
     volumes:
       - app_static:/usr/share/nginx/html/static
